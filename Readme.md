@@ -10,7 +10,7 @@ The photo route can be attached to _two distinct_ components:
 ## Problem
 
 If the connection is slow and the user has time to click on the photo before the hydration completes, 
-then next/Link will act as tag <a href=‘/photo/1’>, which will cause the page to reload completely instead of showing a modal window.
+then next/Link will act as tag \<a href=‘/photos/[id]’>, which will cause the page to reload completely instead of showing a modal window.
 
 
 ## Demo
